@@ -440,6 +440,7 @@
 				header.innerHTML = 'Wie klopt?';
 				PlaySound(game.music);
 				audio_source.addEventListener('ended', function() {
+					alert('ended');
 					PlaySound(show);
 					wait = false;
 				});
